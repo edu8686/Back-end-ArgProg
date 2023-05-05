@@ -35,5 +35,6 @@ C:\Users\Mili\Proyectos Spring Boot\jwt\src\main\java\com\portfolio\jwt\Security
 C:\Users\Mili\Proyectos Spring Boot\jwt\src\main\java\com\portfolio\jwt\Service\ImpPersonaService.java
 C:\Users\Mili\Proyectos Spring Boot\jwt\src\main\java\com\portfolio\jwt\Security\Enums\RolNombre.java
 C:\Users\Mili\Proyectos Spring Boot\jwt\src\main\java\com\portfolio\jwt\Service\Shys.java
+C:\Users\Mili\Proyectos Spring Boot\jwt\src\main\java\com\portfolio\jwt\WebConfig.java
 C:\Users\Mili\Proyectos Spring Boot\jwt\src\main\java\com\portfolio\jwt\Dto\dtoHys.java
 C:\Users\Mili\Proyectos Spring Boot\jwt\src\main\java\com\portfolio\jwt\Security\jwt\JwtTokenFilter.java

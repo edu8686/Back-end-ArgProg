@@ -24,6 +24,7 @@ com\portfolio\jwt\Security\Service\RolService.class
 com\portfolio\jwt\Entity\Educacion.class
 com\portfolio\jwt\Repository\IPersonaRepository.class
 com\portfolio\jwt\Service\SExperiencia.class
+com\portfolio\jwt\WebConfig.class
 com\portfolio\jwt\Security\Dto\NuevoUsuario.class
 com\portfolio\jwt\Security\Service\UserDetailsImpl.class
 com\portfolio\jwt\Service\ImpPersonaService.class
