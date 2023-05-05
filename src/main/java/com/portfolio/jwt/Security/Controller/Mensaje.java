@@ -3,7 +3,7 @@ package com.portfolio.jwt.Security.Controller;
 
 import org.springframework.web.bind.annotation.CrossOrigin;
 
-@CrossOrigin("http://localhost:4200")
+@CrossOrigin("https://portfolio-ap-dfae9.web.app/")
 public class Mensaje {
     private String mensaje;
     
