@@ -36,5 +36,5 @@ com\portfolio\jwt\Security\Repository\iUsuarioRepository.class
 com\portfolio\jwt\Security\Entity\Rol.class
 com\portfolio\jwt\Entity\Hys.class
 com\portfolio\jwt\Security\MainSecurity.class
+com\portfolio\jwt\Dto\dtoPersona.class
 com\portfolio\jwt\Security\Service\UsuarioService.class
-com\portfolio\jwt\Interface\IPersonaService.class

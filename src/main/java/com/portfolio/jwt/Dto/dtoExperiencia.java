@@ -8,6 +8,11 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 public class dtoExperiencia {
     @NotBlank
     private String nombreExp;
+    @NotBlank
+    private String fechaInicial;
+    @NotBlank
+    private String fechaFinal;
+    @NotBlank
     private String descripcionExp; 
     
     //Constructores
@@ -15,8 +20,10 @@ public class dtoExperiencia {
     public dtoExperiencia() {
     }
 
-    public dtoExperiencia(String nombreExp, String descripcionExp) {
+    public dtoExperiencia(String nombreExp, String fechaInicial, String fechaFinal, String descripcionExp) {
         this.nombreExp = nombreExp;
+        this.fechaInicial = fechaInicial;
+        this.fechaFinal = fechaFinal;
         this.descripcionExp = descripcionExp;
     }
     
@@ -30,6 +37,24 @@ public class dtoExperiencia {
         this.nombreExp = nombreExp;
     }
 
+    public String getFechaInicial() {
+        return fechaInicial;
+    }
+
+    public void setFechaInicial(String fechaInicial) {
+        this.fechaInicial = fechaInicial;
+    }
+
+    public String getFechaFinal() {
+        return fechaFinal;
+    }
+
+    public void setFechaFinal(String fechaFinal) {
+        this.fechaFinal = fechaFinal;
+    }
+    
+    
+
     public String getDescripcionExp() {
         return descripcionExp;
     }
@@ -37,6 +62,5 @@ public class dtoExperiencia {
     public void setDescripcionExp(String descripcionExp) {
         this.descripcionExp = descripcionExp;
     }
-    
     
 }

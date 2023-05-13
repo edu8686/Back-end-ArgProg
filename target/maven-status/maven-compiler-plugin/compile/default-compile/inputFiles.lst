@@ -1,4 +1,3 @@
-C:\Users\Mili\Proyectos Spring Boot\jwt\src\main\java\com\portfolio\jwt\Interface\IPersonaService.java
 C:\Users\Mili\Proyectos Spring Boot\jwt\src\main\java\com\portfolio\jwt\Dto\dtoExperiencia.java
 C:\Users\Mili\Proyectos Spring Boot\jwt\src\main\java\com\portfolio\jwt\Entity\Persona.java
 C:\Users\Mili\Proyectos Spring Boot\jwt\src\main\java\com\portfolio\jwt\Security\Entity\Rol.java
@@ -33,6 +32,7 @@ C:\Users\Mili\Proyectos Spring Boot\jwt\src\main\java\com\portfolio\jwt\Controll
 C:\Users\Mili\Proyectos Spring Boot\jwt\src\main\java\com\portfolio\jwt\Entity\Educacion.java
 C:\Users\Mili\Proyectos Spring Boot\jwt\src\main\java\com\portfolio\jwt\Security\Dto\JwtDto.java
 C:\Users\Mili\Proyectos Spring Boot\jwt\src\main\java\com\portfolio\jwt\Service\ImpPersonaService.java
+C:\Users\Mili\Proyectos Spring Boot\jwt\src\main\java\com\portfolio\jwt\Dto\dtoPersona.java
 C:\Users\Mili\Proyectos Spring Boot\jwt\src\main\java\com\portfolio\jwt\Security\Enums\RolNombre.java
 C:\Users\Mili\Proyectos Spring Boot\jwt\src\main\java\com\portfolio\jwt\Service\Shys.java
 C:\Users\Mili\Proyectos Spring Boot\jwt\src\main\java\com\portfolio\jwt\WebConfig.java

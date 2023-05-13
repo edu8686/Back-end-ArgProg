@@ -23,7 +23,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("educacion")
-@CrossOrigin(origins = "https://portfolio-ap-dfae9.web.app/", methods={RequestMethod.GET, RequestMethod.POST, RequestMethod.PUT, RequestMethod.DELETE})
+@CrossOrigin(origins = "https://portfolio-ap-dfae9.firebaseapp.com/", methods={RequestMethod.GET, RequestMethod.POST, RequestMethod.PUT, RequestMethod.DELETE})
 public class CEducacion {
     @Autowired
     SEducacion sEducacion;
@@ -62,7 +62,7 @@ public class CEducacion {
         }
         
         Educacion educacion = new Educacion(
-                dtoeducacion.getNombreEd(), dtoeducacion.getDescripcionEd()
+                dtoeducacion.getNombreEd(), dtoeducacion.getDescripcionEd(), dtoeducacion.getFechaInicial(), dtoeducacion.getFechaFinal(), dtoeducacion.getImgEd()
             );
         sEducacion.save(educacion);
         return new ResponseEntity(new Mensaje("Educacion creada"), HttpStatus.OK);
@@ -84,8 +84,11 @@ public class CEducacion {
         Educacion educacion = sEducacion.getOne(id).get();
         
         educacion.setNombreEd(dtoeducacion.getNombreEd());
+        educacion.setFechaInicial(dtoeducacion.getFechaInicial());
+        educacion.setFechaFinal(dtoeducacion.getFechaFinal());
         educacion.setDescripcionEd(dtoeducacion.getDescripcionEd());
-        
+        educacion.setImgEd(dtoeducacion.getImgEd());
+       
         sEducacion.save(educacion);
         
         return new ResponseEntity(new Mensaje("Educacion actualizada"), HttpStatus.OK);

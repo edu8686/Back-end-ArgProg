@@ -1,10 +1,7 @@
 
 package com.portfolio.jwt.Controller;
 
-import com.portfolio.jwt.Dto.dtoExperiencia;
 import com.portfolio.jwt.Dto.dtoHys;
-import com.portfolio.jwt.Entity.Experiencia;
-import com.portfolio.jwt.Entity.Hys;
 import com.portfolio.jwt.Entity.Hys;
 import com.portfolio.jwt.Security.Controller.Mensaje;
 import com.portfolio.jwt.Service.Shys;
@@ -21,10 +18,11 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@CrossOrigin(origins="https://portfolio-ap-dfae9.web.app/")
+@CrossOrigin(origins="https://portfolio-ap-dfae9.web.app/", methods={RequestMethod.GET, RequestMethod.POST, RequestMethod.PUT, RequestMethod.DELETE})
 @RequestMapping("/skill")
 public class CHys {
     @Autowired
