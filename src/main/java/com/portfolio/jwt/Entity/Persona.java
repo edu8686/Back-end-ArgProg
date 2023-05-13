@@ -10,7 +10,7 @@ import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Size;
 import org.springframework.web.bind.annotation.CrossOrigin;
 
-@CrossOrigin(origins = "https://portfolio-ap-dfae9.web.app/")
+@CrossOrigin(origins = "https://portfolio-ap-dfae9.web.app")
 @Entity
 public class Persona {
     
