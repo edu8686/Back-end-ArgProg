@@ -31,8 +31,8 @@ public class ImpPersonaService {
         return ipersonaRepository.findByNombre(nombre);
     }
     
-    public void save(Persona expe) {
-        ipersonaRepository.save(expe);
+    public void save(Persona persona) {
+        ipersonaRepository.save(persona);
     }
     
     public void delete(int id) {
