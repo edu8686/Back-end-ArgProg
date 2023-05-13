@@ -7,7 +7,7 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import org.springframework.web.bind.annotation.CrossOrigin;
 
-@CrossOrigin(origins = "https://portfolio-ap-dfae9.firebaseapp.com/")
+@CrossOrigin(origins = "https://portfolio-ap-dfae9.web.app")
 @Entity 
 public class Educacion {
     @Id
